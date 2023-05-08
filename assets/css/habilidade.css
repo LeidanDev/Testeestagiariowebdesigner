@@ -1,0 +1,64 @@
+.habilidades{
+    background: var(--azul-principal);
+}
+
+.titulo__habilidade{
+    text-align: center;
+    padding: 3em;
+    font-size: 30px;
+}
+
+.linguagens{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.icone{
+    width: 100px;
+    height: 100px;
+    border: 1px var(--cor-de-fundo);
+    border-radius: 100px;
+    padding: 3em;
+    margin-bottom: 5em;
+}
+
+.icone:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 720px) {
+    .titulo__habilidade{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icone{
+        width: 50px;
+        height: 50px;
+        padding: 1em;
+    }
+
+    .icone:hover{
+        transform: none;
+    }
+    
+}
+
+@media  screen and (max-width: 1024px) {
+    .icone{
+        width: 70px;
+        height: 70px;
+    }
+
+    .icone:hover{
+        transform: none;
+    }
+
+}
+
+

@@ -1,0 +1,94 @@
+.projetos {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.titulo__projetos {
+    text-align: center;
+    font-size: 30px;
+    padding: 3em;
+}
+
+.organizacao {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 25%;
+   
+}
+
+.projeto {
+    border: 2px solid white;
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;    
+    margin: 23.1px;
+    text-decoration: none;
+    margin-left: 2.5em;
+}
+
+.projeto:hover{
+    border-color: var(--azul-principal);
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.link__github {
+    text-align: center;
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin: 1em;
+    margin-left: 39%;
+    font-size: 32px;
+    border: solid var(--branco-principal);
+    padding: 0.5em;
+    border-radius: 25px;
+}
+
+.link__github:hover {
+    border-color: var(--branco-principal);
+    background-color: var(--azul-principal);
+    color: var(--cor-de-fundo);
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 2px var(--branco-principal);
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.imagem__projeto{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.descricao{
+    color: var(--branco-principal);
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and ( max-width: 720px) {
+
+    .organizacao{
+        display: flex;
+        align-content: space-between;
+        justify-content: center;
+        
+    }
+
+}
+    
+
+
+@media screen and (max-width:1024px) {
+    .organizacao{
+        display: flex;
+        align-content: space-between;
+        justify-content: center;
+    }
+    
+    .link__github{
+        margin-left: 1em;
+    }
+}

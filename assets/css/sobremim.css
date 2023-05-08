@@ -1,0 +1,41 @@
+.sobre__mim{
+    background-color: #6CA7F5 ;
+    padding-bottom: 8em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo__sobre__mim{
+    padding: 3em;
+    font-size: 30px; 
+}
+
+.texto__sobre__mim{
+    margin-left: 1.5em;
+    padding: 0.5em;
+    font-size: 26px;
+}
+
+.link__recomendacao {
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+    color: var(--branco-principal);
+    text-decoration: none;
+    margin: 1em;
+    margin-top: 6em;
+    font-size: 32px;
+    border: solid var(--branco-principal);
+    padding: 0.5em;
+    border-radius: 25px;
+}
+
+.link__recomendacao:hover {
+    border-color: var(--branco-principal);
+    background-color: var(--azul-principal);
+    color: var(--cor-de-fundo);
+    font-weight: 700;
+    box-shadow: 2px 2px 2px 2px var(--branco-principal);
+    transform: scale(1.1);
+    transition: 0.7s;
+}
